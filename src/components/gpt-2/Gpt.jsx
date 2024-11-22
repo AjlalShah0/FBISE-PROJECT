@@ -59,7 +59,7 @@ function Gpt({ textToBeExtracted }) {
 
       {!loading && (
         <div className="space-y-4 w-screen flex flex-col items-center justify-center">
-          <div className="w-[40%]">
+          <div className="w-[41%]">
             <textarea
               value={context}
               onChange={(e) => setContext(e.target.value)}
